@@ -12,9 +12,9 @@ public class Bike {
         this.seatShape=sh;
     }
     public void print(){
-      System.out.println("ws chosen is:" + wheelShape);
-      System.out.println("sh chosen is:" + seatShape);
-      System.out.println("wn chosen is:" + wheelNum);
+        System.out.println("ws chosen is:" + wheelShape);
+        System.out.println("sh chosen is:" + seatShape);
+        System.out.println("wn chosen is:" + wheelNum);
     }
 
     public static void main (String []args){
@@ -23,7 +23,16 @@ public class Bike {
 
     }
 
+
+    public int getWheelNum(){
+        return wheelNum;
+    }
+    public String getWheelShape(){
+        return wheelShape;
+    }
 }
+
+
 
 class Bicycle extends Bike{
     int pedalNum;
@@ -37,8 +46,19 @@ class Bicycle extends Bike{
     public static void main (String args[]){
         Bicycle bi = new Bicycle(2);
         bi.print();
+        String instanceStr = bi.toString();
+        System.out.println(instanceStr);
+    }
+    int getPedalNum(){
+        return pedalNum;
+    }
+
+    public String toString(){
+        return "wheelShape:" + getWheelShape()+", wheelNum:" + getWheelNum()+", pedalNum:" + getPedalNum();
     }
 }
+
+
 
 class Motorcycle extends Bike{
     int pedalNum;
