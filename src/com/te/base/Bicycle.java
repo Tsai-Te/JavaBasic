@@ -1,10 +1,11 @@
 public class Bicycle extends Bike {
         int pedalNum;
+        public Bicycle (){}
         public Bicycle(int pn){
             this.pedalNum = pn;
         }
-        public Bicycle (){}
         public void print(){
+            super.print();
             System.out.println("pn chosen is:" + pedalNum);
         }
 

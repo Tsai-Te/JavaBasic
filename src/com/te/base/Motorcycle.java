@@ -10,6 +10,7 @@ public class Motorcycle extends Bicycle {
         }
 
         public void print(){
+            super.print();
             System.out.println("pn chosen is:" + pedalNum);
             System.out.println("gt chosen is:" + gasTank);
             System.out.println("mo chosen is:" + motor);
