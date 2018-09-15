@@ -3,10 +3,14 @@ public class Motorcycle extends Bicycle {
         String gasTank;
         String motor;
 
-        public Motorcycle (int pn, String gt, String mo){
+        public Motorcycle (int pn, String gt, String mo,String ws){
             this.pedalNum = pn;
             this.gasTank = gt;
             this.motor = mo;
+            this.wheelShape=ws;
+        }
+        public void setWheelShape(String ws){
+            this.wheelShape = ws;
         }
 
         public void print(){
@@ -16,7 +20,8 @@ public class Motorcycle extends Bicycle {
             System.out.println("mo chosen is:" + motor);
         }
         public static void main (String args[]){
-            Motorcycle m = new Motorcycle(2,"gas", "yes");
+            Motorcycle m = new Motorcycle(2,"gas", "yes", "");
+            m.setWheelShape("square");
             m.print();
         }
 }
