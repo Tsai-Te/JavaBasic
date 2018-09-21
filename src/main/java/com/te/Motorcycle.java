@@ -1,3 +1,5 @@
+package com.te;
+
 public class Motorcycle extends Bicycle {
         int pedalNum;
         String gasTank;

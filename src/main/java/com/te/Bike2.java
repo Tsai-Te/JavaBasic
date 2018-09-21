@@ -1,3 +1,5 @@
+package com.te;
+
 public class Bike2 {
     String wheelShape;
     int wheelNum;
