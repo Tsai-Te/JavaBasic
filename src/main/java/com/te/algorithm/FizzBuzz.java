@@ -8,10 +8,10 @@ import java.util.List;
 public class FizzBuzz {
 
 
-    public static List<String> solution(int n){
+    public List<String> solution(int n){
         List<String> result=new ArrayList();
 //        Bike b = new Bike();
-        for (int i=1;i<n;i++){
+        for (int i=1;i<n;i+=2){
             if ((i%3==0) && (i%5==0)) {
                 result.add("FizzBuzz");
             } else if(i%3==0){
