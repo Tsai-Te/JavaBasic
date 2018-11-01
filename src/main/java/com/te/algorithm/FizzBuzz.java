@@ -54,9 +54,9 @@ public class FizzBuzz {
 //        Integer[] input={1,2}
         //solution(16)
 
-
+//  static
     System.out.println(FizzBuzz.solution2(16));
-
+    //FizzBuzz.main(null);
     }
 
 

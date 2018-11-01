@@ -1,4 +1,4 @@
-package com.te;
+package com.te.algorithm;
 
 import java.util.ArrayList;
 import java.util.HashSet;
