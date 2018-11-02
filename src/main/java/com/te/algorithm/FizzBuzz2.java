@@ -43,6 +43,6 @@ public class FizzBuzz2 {
             System.out.println(result);
 //            Set<String> result2=fb2.solution(11);
 //            System.out.println(result2);
-            System.out.println(FizzBuzz2.solution2(21));
+            System.out.println(FizzBuzz2.solution2(15));
         }
 }

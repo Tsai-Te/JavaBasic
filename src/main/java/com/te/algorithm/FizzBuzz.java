@@ -46,7 +46,7 @@ public class FizzBuzz {
     public static void main(String[] args){
         FizzBuzz fb=new FizzBuzz();
 //        System.out.println("test result");
-        List<String> result = fb.solution(16);
+        List<String> result = fb.solution(30);
 //        List<String> result2=fb.solution(30);
         System.out.println(result);
 //        System.out.println(result2);
