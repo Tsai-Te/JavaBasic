@@ -1,4 +1,4 @@
-package com.te.interfacepra;
+package com.te.inf;
 
 public interface InterfaceTest3 {
     final int b=6;

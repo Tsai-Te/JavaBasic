@@ -1,4 +1,4 @@
-package com.te.interfacepra;
+package com.te.inf;
 
 public interface InterfaceTest5 {
     final double e=3.19;

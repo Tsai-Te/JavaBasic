@@ -1,4 +1,4 @@
-package com.te.interfacepra;
+package com.te.inf;
 
 public interface Bike5 {
     final int a=2;
