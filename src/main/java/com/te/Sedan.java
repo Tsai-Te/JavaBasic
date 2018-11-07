@@ -22,13 +22,10 @@ public class Sedan implements Vehicle {
     }
 
     public void print(){
-        System.out.println("When gear is:" +gear);
-        System.out.println("Speed is:"+speed);
-        //System.out.println("gear:"+gear+"speed:"+speed);
+//        System.out.println("When gear is:" +gear);
+//        System.out.println("Speed is:"+speed);
+        System.out.println("gear:"+gear+"\n"+"speed:"+speed+"m/h");
     }
-}
-
-class SedanTest{
     public static void main(String[] args){
         Sedan sedan=new Sedan();
         sedan.changeGear(3);
@@ -37,4 +34,5 @@ class SedanTest{
         System.out.println("Sedan current status:");
         sedan.print();
     }
+
 }

@@ -25,9 +25,7 @@ public class SUV implements Vehicle {
         System.out.println("Gear is:" +gear);
         System.out.println("Speed is:" +speed);
     }
-}
 
-class SUVTest{
     public static void main(String[] args){
         SUV suv=new SUV();
         suv.changeGear(4);
@@ -36,3 +34,5 @@ class SUVTest{
         suv.exhibit();
     }
 }
+
+

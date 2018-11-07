@@ -1,4 +1,4 @@
-package com.te.abstractpra;
+package com.te.abstra;
 
 public class AbstractTest3 extends AbstractTest {
     @Override

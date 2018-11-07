@@ -1,4 +1,4 @@
-package com.te.abstractpra;
+package com.te.abstra;
 
 public abstract class AbstractTest {
     public abstract String abstractTest();

@@ -23,8 +23,9 @@ public class Bike4 {
     }
 
     public static void main(String[] args){
-        Bike4 b4 =new Bike4("round","cicle",1,2);
+        Bike4 b4 =new Bike4("round","circle",1,2);
         b4.print();
 
     }
+
 }

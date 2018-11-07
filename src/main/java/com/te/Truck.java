@@ -24,9 +24,7 @@ public class Truck implements Vehicle {
     public void display(){
         System.out.println("Gear:" +gear + "Speed:" +speed);
     }
-}
 
-class TruckTest{
     public static void main(String[] args) {
         Truck truck = new Truck();
         truck.changeGear(2);
@@ -36,3 +34,5 @@ class TruckTest{
         truck.display();
     }
 }
+
+
