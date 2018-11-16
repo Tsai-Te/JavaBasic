@@ -18,7 +18,7 @@ public class BicycleShare extends AbstractTest implements Vehicle {
 
     public static void main(String[] args) {
         BicycleShare bs=new BicycleShare();
-        bs.print();
+        //bs.print();
 
         /* Y = f(x)
          * Y=result (String type)
