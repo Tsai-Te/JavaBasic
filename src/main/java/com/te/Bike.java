@@ -6,7 +6,7 @@ public class Bike {
     String seatShape;
     Integer handleNum;
 
-    public Bike(){}
+    public Bike(){} //constructor
 
     public Bike(String ws, int wn, String sh, Integer hn) {
         this.wheelShape = ws;
