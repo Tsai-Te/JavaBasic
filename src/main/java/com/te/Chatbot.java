@@ -55,3 +55,11 @@ public class Chatbot extends JFrame {
     }
 
 }
+
+//javac
+//java
+//if
+//else
+//public static void main(String[] args){
+//case      arg[0]
+//switch    arg[1]
