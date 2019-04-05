@@ -6,15 +6,18 @@ import java.util.List;
 public class Fib {
 
     public int f(int n) {
+        if (n<0){
+            return 0;
+        }
         if (n == 1 || n == 0) {
             return 1;
         }
         int sum = f(n - 1) + f(n - 2);
         return sum;
-    }
+    }//time complexity
 
 
-    public int fi2(int n,HashMap<Integer,Integer> hp) {
+    public int fi2(int n,HashMap<Integer,Integer> hp) { //n:index
         if (n == 1 || n == 0) {
             return 1;
         }
@@ -56,3 +59,9 @@ public class Fib {
 
 
 }
+
+
+//exit if(n=0) return 0;
+//      if(n=1) return 1;
+//      sum= finb(n-1)+fin(n-2)
+//      return =sum;

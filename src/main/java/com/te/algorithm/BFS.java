@@ -2,9 +2,35 @@ package com.te.algorithm;
 
 import com.te.structure.TreeNode;
 
+import javax.xml.soap.Node;
 import java.util.*;
 
 public class BFS {
+    public List<Integer> largestValues (TreeNode root){
+        Queue<TreeNode> queue=new LinkedList<>();
+        List<Integer> list=new ArrayList<>();
+        queue.offer(root);
+        while(!(queue.isEmpty())){
+            int temp=0;
+            int size=queue.size();
+            for (int i=0; i<size; i++){
+                TreeNode treeNode=queue.poll();
+                if(treeNode.value>=temp){
+                    temp=treeNode.value;
+                }
+                if(!(treeNode.left==null)){
+                    queue.offer(treeNode.left);
+                }
+                if(!(treeNode.right==null)){
+                    queue.offer(treeNode.right);
+                }
+            }
+            list.add(temp);
+        }
+        System.out.println(list);
+        return list;
+    }
+
 
 //    public List<Integer> treeNode(int n) {
 //        Queue<BFS> queue = new LinkedList<>();
@@ -27,7 +53,18 @@ public class BFS {
         rootOnLayer2_7.setRight(rootOnLayer3_9);
         TreeNode rootOnLayer4_6=new TreeNode(6);
         rootOnLayer3_9.setLeft(rootOnLayer4_6);
+
+        BFS bfs=new BFS();
+        bfs.largestValues(rootOnLayer1_5);
     }
+
+//    public void print(TreeNode treeNode){
+//        Queue<List> queue=new ArrayDeque<>();
+//        List<TreeNode> temp=new ArrayList<>();
+//        temp.add(treeNode);
+//        while (temp.size()>0);
+//        for (TreeNode t:temp){
+//    }
 
 
 }

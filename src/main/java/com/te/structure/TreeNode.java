@@ -1,9 +1,9 @@
 package com.te.structure;
 
 public class TreeNode {
-    TreeNode left;
-    TreeNode right;
-    int value;
+    public TreeNode left;
+    public TreeNode right;
+    public int value;
 
     public TreeNode getLeft() {
         return left;
