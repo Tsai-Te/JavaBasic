@@ -27,6 +27,10 @@ public class DFS {
 
        DFS dfs=new DFS();
        dfs.traverse(root);
+
+//       testing
+//       DFS dfs=new DFS();
+       dfs.traverse(null);
    }
 
 }

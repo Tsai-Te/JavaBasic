@@ -1,9 +1,16 @@
 package com.te;
 
 public class Car {
+
     String seatMaterial;
     int doorNum;
     String color;
+
+//    Car(){};
+//
+//    public class EleCar extends Car{
+//
+//    }
 
     public Car(){};
 

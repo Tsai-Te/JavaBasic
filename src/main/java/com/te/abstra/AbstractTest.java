@@ -5,4 +5,6 @@ public abstract class AbstractTest {
     public String regularTest(){
         return "Testing an abstract class";
     }
+
+
 }
