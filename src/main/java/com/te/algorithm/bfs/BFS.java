@@ -8,10 +8,10 @@ import java.util.Queue;
 public class BFS {
     public void solution(TreeNode root) {
         Queue<TreeNode> q = new LinkedList<>();
-//        List<TreeNode> result=new ArrayList<>();
+        List<TreeNode> result=new ArrayList<>();
         q.offer(root);
         while (!q.isEmpty()) {
-//            int temp=0; //??? what is temp
+            int temp=0;
             int size = q.size();
             for (int i = 0; i < size; i++) {
                 TreeNode n = q.poll();

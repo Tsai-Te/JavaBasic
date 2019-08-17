@@ -74,28 +74,91 @@ public class PlusOne {
 //        return newNums;
 //    }
 
-    public int[] solution3 (int[] nums) {
-        for (int i=nums.length-1; i>-1; i--){
-            if (nums[i] != 9){
-                nums[i]++;
-                return nums;
-            } else {
-                nums[i] = 0;
-            }
-        }
-        int[] newNums = new int[nums.length+1];
-        newNums[0] = 1;
-        return newNums;
-    }
+//    public int[] solution3 (int[] nums) {
+//        for (int i=nums.length-1; i>-1; i--){
+//            if (nums[i] != 9){
+//                nums[i]++;
+//                return nums;
+//            } else {
+//                nums[i] = 0;
+//            }
+//        }
+//        int[] newNums = new int[nums.length+1];
+//        newNums[0] = 1;
+//        return newNums;
+//    }
+//
+//
+//    public static void main(String[] args){
+//        PlusOne plusOne=new PlusOne();
+//        int[] nums = {9,9,9,9};
+////        System.out.println(Arrays.toString(plusOne.solution(nums)));
+////        System.out.println(Arrays.toString(plusOne.solution2(nums)));
+//        System.out.println(Arrays.toString(plusOne.solution3(nums)));
+//    }
+
+//    public static void main(String[] args){
+//        int[] a={9,9,9,9};
+//        PlusOne p=new PlusOne();
+//        System.out.println(Arrays.toString(p.plusOne(a)));
+//    }
+//
+//
+//    public int[] plusOne(int[] nums){
+//        for(int i=nums.length-1; i>=0; i--){
+//            if(nums[i]!=9){
+//                nums[i]++;
+//                return nums;
+//            } else {
+//                nums[i] = 0;
+//            }
+//        }
+//        int[] newNums=new int[nums.length+1];
+//        newNums[0]=1;
+//        return newNums;
+//    }
+
+//    public static void main(String[] args) {
+//        int[] arr={9,9,9,9};
+//        PlusOne p=new PlusOne();
+//        System.out.println(Arrays.toString(p.solution(arr)));
+//    }
+//
+//    public int[] solution(int[] nums){
+//        for(int i=nums.length-1; i>=0; i--){
+//            if(nums[i]!=9){
+//                nums[i]++;
+//                return nums;
+//            } else {
+//                nums[i]=0;
+//            }
+//        }
+//        int[] newNums=new int[nums.length+1];
+//        newNums[0]=1;
+//        return newNums;
+//    }
+
+//    public static void main(String[] args) {
+//        int[] a={9,9,9};
+//        PlusOne p=new PlusOne();
+//        System.out.println(Arrays.toString(p.solution2(a)));
+//    }
+//
+//    public int[] solution2(int[] nums){
+//        for(int i=nums.length-1; i>-1; i--){
+//            if(nums[i]==9){
+//                nums[i]=0;
+//            } else {
+//                nums[i]++;
+//                return nums;
+//            }
+//        }
+//        int[] newNums=new int[nums.length+1];
+//        newNums[0]=1;
+//        return newNums;
+//    }
 
 
-    public static void main(String[] args){
-        PlusOne plusOne=new PlusOne();
-        int[] nums = {9,9,9,9};
-//        System.out.println(Arrays.toString(plusOne.solution(nums)));
-//        System.out.println(Arrays.toString(plusOne.solution2(nums)));
-        System.out.println(Arrays.toString(plusOne.solution3(nums)));
-    }
 }
 
 //int arrayConvertToInteger (int[] nums){
